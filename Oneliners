@@ -1,3 +1,4 @@
+```
 #Find all the files with an extension of fastq in a directory or sub-directories and move to a new folder within that directory
 
 find . -name "*.fastq" -print0 | xargs -0 -I {} mv {} fastqfiles/
@@ -6,3 +7,4 @@ find . -name "*.fastq" -print0 | xargs -0 -I {} mv {} fastqfiles/
 #by — by clitips on April 26, 2013, 1:37 p.m @ http://www.bashoneliners.com/oneliners/oneliner/157/
 
 ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+```
