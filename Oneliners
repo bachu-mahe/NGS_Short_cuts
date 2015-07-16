@@ -1,8 +1,8 @@
-##Find, ls
+##Find, ls, etc
 
 #Find all the files with an extension of fastq in a directory or sub-directories and move to a new folder within that directory
-```
 
+```
 find . -name "*.fastq" -print0 | xargs -0 -I {} mv {} fastqfiles/
 
 #Tree-like output using ls
