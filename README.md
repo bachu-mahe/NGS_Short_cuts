@@ -3,7 +3,6 @@
 http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html
 
 
-# NGS_Short_cuts
 Useful resources for plotting using Rstudio
 https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
 
