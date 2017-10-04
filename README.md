@@ -1,7 +1,10 @@
 #Very good resource for ggplot
 #r-statistics.co by Selva Prabhakaran
+
 http://r-statistics.co/R-Tutorial.html
+
 http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html
+
 http://www.cookbook-r.com/Graphs/Axes_(ggplot2)/
 
 #Data visualization with ggplot2
