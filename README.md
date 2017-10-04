@@ -1,3 +1,8 @@
+#Data visualization with ggplot2
+
+http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html
+
+
 # NGS_Short_cuts
 Useful resources for plotting using Rstudio
 https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
@@ -18,3 +23,5 @@ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's
 #Any output other that the directory names, identified by ":" at the very end of each line (hence ":$"), is filtered out: grep ":$".
 #Finally there's a little of "sed" magic replacing any hierarchy level ("/") with dashes ("-"): sed ....
 #Works for me with Bash under Linux, Mac OS X, Solaris.
+
+
