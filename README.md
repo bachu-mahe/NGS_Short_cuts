@@ -1,3 +1,7 @@
+#Arranging plots properly
+http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/81-ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
+
+
 #Very good resource for ggplot
 #r-statistics.co by Selva Prabhakaran
 
