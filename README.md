@@ -19,11 +19,10 @@ https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
 
 6. **Tree-like output using ls** _by — by clitips on April 26, 2013, 1:37 p.m @ http://www.bashoneliners.com/oneliners/oneliner/157/_
 ```ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'```
-
-#This one-liner initially does a recursive listing of the current directory: ls -R.
-#Any output other that the directory names, identified by ":" at the very end of each line (hence ":$"), is filtered out: grep ":$".
-#Finally there's a little of "sed" magic replacing any hierarchy level ("/") with dashes ("-"): sed ....
-#Works for me with Bash under Linux, Mac OS X, Solaris.
+ >This one-liner initially does a recursive listing of the current directory: ls -R.
+ #Any output other that the directory names, identified by ":" at the very end of each line (hence ":$"), is filtered out: grep ":$".
+ #Finally there's a little of "sed" magic replacing any hierarchy level ("/") with dashes ("-"): sed ....
+ #Works for me with Bash under Linux, Mac OS X, Solaris
 
 7. **See the contents of .tar.gz file without opening**
 ```tar -tf filename.tar.gz```
