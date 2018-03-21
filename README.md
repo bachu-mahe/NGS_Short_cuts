@@ -35,4 +35,5 @@ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's
 #Works for me with Bash under Linux, Mac OS X, Solaris.
 
 #See the contents of *.tar.gz file without opening
+
 tar -tf filename.tar.gz
