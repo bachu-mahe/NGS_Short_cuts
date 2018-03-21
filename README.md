@@ -34,4 +34,5 @@ ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's
 #Finally there's a little of "sed" magic replacing any hierarchy level ("/") with dashes ("-"): sed ....
 #Works for me with Bash under Linux, Mac OS X, Solaris.
 
-
+See the contents of *.tar.gz file without opening
+tar -tf filename.tar.gz
