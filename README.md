@@ -1,7 +1,6 @@
 **Useful Short Cuts**
 ##########################################################################################
 1. **Arranging plots properly**
-
 http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/81-ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
 
 2. **Very good resource for ggplot from r-statistics.co by Selva Prabhakaran**
@@ -26,5 +25,5 @@ https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
 #Finally there's a little of "sed" magic replacing any hierarchy level ("/") with dashes ("-"): sed ....
 #Works for me with Bash under Linux, Mac OS X, Solaris.
 
-7. See the contents of *.tar.gz file without opening
+7. **See the contents of *.tar.gz file without opening**
 ```tar -tf filename.tar.gz```
