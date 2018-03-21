@@ -25,7 +25,7 @@ https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
 #Finally there's a little of "sed" magic replacing any hierarchy level ("/") with dashes ("-"): sed ....
 #Works for me with Bash under Linux, Mac OS X, Solaris.
 
-7. **See the contents of *.tar.gz file without opening**
+7. **See the contents of .tar.gz file without opening**
 ```tar -tf filename.tar.gz```
 8. **Find file names recursively in a directory and print the location**
 ```find . -name *conf* -exec grep -Hni 'matching_text' {} \; > matching_text.conf.list```
