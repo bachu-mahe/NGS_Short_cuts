@@ -27,3 +27,5 @@ https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
 
 7. **See the contents of *.tar.gz file without opening**
 ```tar -tf filename.tar.gz```
+8. **Find file names recursively in a directory and print the location**
+```find . -name *conf* -exec grep -Hni 'matching_text' {} \; > matching_text.conf.list```
