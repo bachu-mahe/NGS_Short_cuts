@@ -28,5 +28,6 @@ https://cran.r-project.org/web/packages/gridExtra/vignettes/arrangeGrob.html
 ```tar -tf filename.tar.gz```
 8. **Find all files recursively with specified string in the filename and output any lines found containing a different string.**
 ```find . -name *conf* -exec grep -Hni 'matching_text' {} \; > matching_text.conf.list```
-9. **How can I bulk replace the prefix for many files (keep an eye on the number of letters to cut -c16-, do echo before using mv option)
+9. **How can I bulk replace the prefix for many files** 
+   -keep an eye on the number of letters to cut -c16-, do echo before using mv option
 ```for name in *.bam; do     newname="$(echo "$name" | cut -c16-)";     mv -i "$name" "$newname"; done```
